@@ -1,0 +1,23 @@
+mainbody p:nth-of-type(1){
+	border:solid 1px red;
+	width: 70px;
+	height: 50px;
+	background-color: #696969;
+	float: left;
+	text-align: center;;
+	line-height: 50px;
+
+}
+mainbody{
+	border:1px red solid;
+}
+mainbody p:nth-of-type(2),p:nth-of-type(3),ul{
+	box-sizing: border-box;
+	width: 66%
+	
+	float: right;
+}
+.clearfloat{
+	clear: both;
+
+}
